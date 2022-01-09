@@ -37,6 +37,7 @@ would understand `--` before the file, but not enough to actually try it :smiley
 ## Further reading
 
 * [Caleb Hearth: Signing Git Commits with Your SSH Key](https://calebhearth.com/sign-git-with-ssh) ([web.archive.org](https://web.archive.org/web/20211117182628/https://calebhearth.com/sign-git-with-ssh)) inspired me to try this
+* [Andrew Ayer: It's Now Possible To Sign Arbitrary Data With Your SSH Keys](https://www.agwa.name/blog/post/ssh_signatures) instructs on signing and verifying files outside of git
 
 ### Forge support
 
