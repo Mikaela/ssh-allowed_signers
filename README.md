@@ -7,8 +7,10 @@ which does about the same for PGP.
 
 ## Where to find keys
 
-* GitHub, Giteas and GitLabs expose user public keys when you append a .keys after their profile page
-* Good ideas are made to be copied, so maybe there will be more repositories like this ;)
+* GitHub, Giteas and GitLabs expose user public keys (without useful names)
+  when you append a `.keys` after their profile page
+  * For example: https://github.com/Mikaela.keys https://gitea.blesmrt.net/Mikaela.keys https://gitlab.com/Mikaela.keys
+* Good ideas are made to be copied, so maybe there will be more repositories like this :wink:
 
 ## Quick howto
 
