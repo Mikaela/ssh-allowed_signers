@@ -41,5 +41,3 @@ would understand `--` before the file, but not enough to actually try it :smiley
   * TODO: notify here when it actually works, link to their guide or maybe remove the section?
 * [Merged Gitea PR for add support for ssh commit signing](https://github.com/go-gitea/gitea/pull/17743)
   * TODO: link to their blog once it's released
-* [Fedora update request for git](https://bugzilla.redhat.com/show_bug.cgi?id=2029604)
-  * TODO: remove this mention when it happens? It does have the test instructions I took
