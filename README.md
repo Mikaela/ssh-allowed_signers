@@ -37,7 +37,12 @@ would understand `--` before the file, but not enough to actually try it :smiley
 ## Further reading
 
 * [Caleb Hearth: Signing Git Commits with Your SSH Key](https://calebhearth.com/sign-git-with-ssh) ([web.archive.org](https://web.archive.org/web/20211117182628/https://calebhearth.com/sign-git-with-ssh)) inspired me to try this
-* [GitHub feedback: Allow using SSH keys to sign commits](https://github.com/github/feedback/discussions/7744)
-  * TODO: notify here when it actually works, link to their guide or maybe remove the section?
+
+### Forge support
+
 * [Merged Gitea PR for add support for ssh commit signing](https://github.com/go-gitea/gitea/pull/17743)
   * TODO: link to their blog once it's released
+* [GitHub feedback: Allow using SSH keys to sign commits](https://github.com/github/feedback/discussions/7744)
+  * TODO: notify here when it actually works, link to their guide or maybe remove the section?
+* [GitLab issues: Support for SSH signed commits](https://gitlab.com/gitlab-org/gitlab/-/issues/343879)
+  * TODO: a better link when this happens
