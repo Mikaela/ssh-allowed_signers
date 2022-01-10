@@ -24,7 +24,8 @@ git clone https://gitea.blesmrt.net/Mikaela/ssh-allowed_signers.git
 git config --global gpg.ssh.allowedSignersFile ~/src/gitea.blesmrt.net/Mikaela/ssh-allowed_signers/allowed_signers
 ```
 
-Git commands should now recognised commits signed with keys I have allowed.
+Git commands, such as `git verify-commit --raw HEAD` or `git log --show-signature`,
+should now recognised commits signed with keys I have allowed.
 In the last command it's fine to remove `--global` to only affect the single
 repository you are on (while I haven't tested this), should that repository
 be something only I am signing in or something I need to verify otherwise
