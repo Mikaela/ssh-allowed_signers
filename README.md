@@ -42,8 +42,7 @@ would understand `--` before the file, but not enough to actually try it :smiley
 
 ### Forge support
 
-* [Merged Gitea PR for add support for ssh commit signing](https://github.com/go-gitea/gitea/pull/17743)
-  * TODO: link to their blog once it's released
+* 🥇 [Gitea v1.16.0 released 2022-01-30 (release notes)](https://github.com/go-gitea/gitea/releases/tag/v1.16.0) brought support for SSH signed commits. TODO: Add a link to their blog somewhere on this line once one exists.
 * [GitHub feedback: Allow using SSH keys to sign commits](https://github.com/github/feedback/discussions/7744)
   * TODO: notify here when it actually works, link to their guide or maybe remove the section?
 * [GitLab issues: Support for SSH signed commits](https://gitlab.com/gitlab-org/gitlab/-/issues/343879)
