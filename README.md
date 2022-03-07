@@ -35,6 +35,13 @@ On the last command, `git config` turns it into absolute path, while manually
 edited `.gitconfig` can literally have the above. I wonder if the command
 would understand `--` before the file, but not enough to actually try it :smiley:
 
+## Mirrors
+
+* https://gitea.blesmrt.net/mikaela/ssh-allowed_signers
+* https://github.com/mikaela/ssh-allowed_signers
+* https://gitlab.com/mikaela/ssh-allowed_signers
+* https://git.com.de/mikaela/ssh-allowed_signers & http://gitea.qzzf2qcfbhievvs5nzkccuwddroipy62qjocqtmgcgh75vd6w57m7yad.onion/Mikaela/ssh-allowed_signers
+
 ## Further reading
 
 * [Caleb Hearth: Signing Git Commits with Your SSH Key](https://calebhearth.com/sign-git-with-ssh) ([web.archive.org](https://web.archive.org/web/20211117182628/https://calebhearth.com/sign-git-with-ssh)) inspired me to try this
