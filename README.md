@@ -53,5 +53,5 @@ would understand `--` before the file, but not enough to actually try it :smiley
   * [Their Git hosting comparison also includes SSH Signed Commits](https://docs.gitea.io/en-us/comparison/#code-management).
 * [GitHub feedback: Allow using SSH keys to sign commits](https://github.com/github/feedback/discussions/7744)
   * TODO: notify here when it actually works, link to their guide or maybe remove the section?
-* [GitLab issues: Support for SSH signed commits](https://gitlab.com/gitlab-org/gitlab/-/issues/343879)
-  * TODO: a better link when this happens
+* [GitLab issues: Support for SSH signed commits](https://gitlab.com/gitlab-org/gitlab/-/issues/343879) and [a draft merge request on the subject](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/78200)
+  * TODO: (a) better link(s) when this happens
