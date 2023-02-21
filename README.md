@@ -52,5 +52,6 @@ would understand `--` before the file, but not enough to actually try it :smiley
 * 🥇 [Gitea v1.16.0 brought support for SSH signed commits on 2022-01-30.](https://blog.gitea.io/2022/02/gitea-1.16.0-and-1.16.1-released/) ([tag](https://github.com/go-gitea/gitea/releases/tag/v1.16.0))
   * [Their Git hosting comparison also includes SSH Signed Commits](https://docs.gitea.io/en-us/comparison/#code-management).
 * 🥈 [GitHub started supporting SSH signed commits on 2022-08-23](https://github.blog/changelog/2022-08-23-ssh-commit-verification-now-supported/)
-* [GitLab issues: Support for SSH signed commits](https://gitlab.com/gitlab-org/gitlab/-/issues/343879) and [a draft merge request on the subject](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/78200)
-  * TODO: (a) better link(s) when this happens
+  * [About commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
+* 🥉 [GitLab 15.7 started supporting SSH signatures on 2022-12-22](https://about.gitlab.com/releases/2022/12/22/gitlab-15-7-released/)
+  * [Sign commits with SSH keys](https://docs.gitlab.com/ee/user/project/repository/ssh_signed_commits/)
