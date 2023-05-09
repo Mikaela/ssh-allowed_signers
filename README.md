@@ -5,12 +5,23 @@ smartcard, I have to try this. It likely getting more common in the future doesn
 hurt either and I have [pgp-alt-wot](https://gitea.blesmrt.net/Mikaela/pgp-alt-wot)
 which does about the same for PGP.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Where to find keys](#where-to-find-keys)
+- [Quick howto](#quick-howto)
+- [Mirrors](#mirrors)
+- [Further reading](#further-reading)
+  - [Forge support](#forge-support)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Where to find keys
 
-* GitHub, Giteas and GitLabs expose user public keys (without useful names)
+- GitHub, Giteas and GitLabs expose user public keys (without useful names)
   when you append a `.keys` after their profile page
-  * For example: https://github.com/Mikaela.keys https://gitea.blesmrt.net/Mikaela.keys https://gitlab.com/Mikaela.keys
-* Good ideas are made to be copied, so maybe there will be more repositories like this :wink:
+  - For example: https://github.com/Mikaela.keys https://gitea.blesmrt.net/Mikaela.keys https://gitlab.com/Mikaela.keys
+- Good ideas are made to be copied, so maybe there will be more repositories like this :wink:
 
 ## Quick howto
 
@@ -37,22 +48,22 @@ would understand `--` before the file, but not enough to actually try it :smiley
 
 ## Mirrors
 
-* https://gitea.blesmrt.net/mikaela/ssh-allowed_signers
-* https://github.com/mikaela/ssh-allowed_signers
-* https://gitlab.com/mikaela/ssh-allowed_signers
-* https://git.com.de/mikaela/ssh-allowed_signers & http://gitea.qzzf2qcfbhievvs5nzkccuwddroipy62qjocqtmgcgh75vd6w57m7yad.onion/Mikaela/ssh-allowed_signers
+- https://gitea.blesmrt.net/mikaela/ssh-allowed_signers
+- https://github.com/mikaela/ssh-allowed_signers
+- https://gitlab.com/mikaela/ssh-allowed_signers
+- https://git.com.de/mikaela/ssh-allowed_signers & http://gitea.qzzf2qcfbhievvs5nzkccuwddroipy62qjocqtmgcgh75vd6w57m7yad.onion/Mikaela/ssh-allowed_signers
 
 ## Further reading
 
-* [Caleb Hearth: Signing Git Commits with Your SSH Key](https://calebhearth.com/sign-git-with-ssh) ([web.archive.org](https://web.archive.org/web/20211117182628/https://calebhearth.com/sign-git-with-ssh)) inspired me to try this
-* [Andrew Ayer: It's Now Possible To Sign Arbitrary Data With Your SSH Keys](https://www.agwa.name/blog/post/ssh_signatures) instructs on signing and verifying files outside of git
+- [Caleb Hearth: Signing Git Commits with Your SSH Key](https://calebhearth.com/sign-git-with-ssh) ([web.archive.org](https://web.archive.org/web/20211117182628/https://calebhearth.com/sign-git-with-ssh)) inspired me to try this
+- [Andrew Ayer: It's Now Possible To Sign Arbitrary Data With Your SSH Keys](https://www.agwa.name/blog/post/ssh_signatures) instructs on signing and verifying files outside of git
 
 ### Forge support
 
-* 🥇 [Gitea v1.16.0 brought support for SSH signed commits on 2022-01-30.](https://blog.gitea.io/2022/02/gitea-1.16.0-and-1.16.1-released/) ([tag](https://github.com/go-gitea/gitea/releases/tag/v1.16.0))
-  * [Their Git hosting comparison also includes SSH Signed Commits](https://docs.gitea.io/en-us/comparison/#code-management).
-  * [The first release of Forĝejo was 1.18](https://forgejo.org/2022-12-29-release-v1-18-0/), so it had support since the beginning :tada:.
-* 🥈 [GitHub started supporting SSH signed commits on 2022-08-23](https://github.blog/changelog/2022-08-23-ssh-commit-verification-now-supported/).
-  * [About commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification).
-* 🥉 [GitLab 15.7 started supporting SSH signatures on 2022-12-22](https://about.gitlab.com/releases/2022/12/22/gitlab-15-7-released/).
-  * [Sign commits with SSH keys](https://docs.gitlab.com/ee/user/project/repository/ssh_signed_commits/).
+- 🥇 [Gitea v1.16.0 brought support for SSH signed commits on 2022-01-30.](https://blog.gitea.io/2022/02/gitea-1.16.0-and-1.16.1-released/) ([tag](https://github.com/go-gitea/gitea/releases/tag/v1.16.0))
+  - [Their Git hosting comparison also includes SSH Signed Commits](https://docs.gitea.io/en-us/comparison/#code-management).
+  - [The first release of Forĝejo was 1.18](https://forgejo.org/2022-12-29-release-v1-18-0/), so it had support since the beginning :tada:.
+- 🥈 [GitHub started supporting SSH signed commits on 2022-08-23](https://github.blog/changelog/2022-08-23-ssh-commit-verification-now-supported/).
+  - [About commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification).
+- 🥉 [GitLab 15.7 started supporting SSH signatures on 2022-12-22](https://about.gitlab.com/releases/2022/12/22/gitlab-15-7-released/).
+  - [Sign commits with SSH keys](https://docs.gitlab.com/ee/user/project/repository/ssh_signed_commits/).
