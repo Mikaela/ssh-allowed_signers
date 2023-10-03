@@ -4,12 +4,16 @@ ci:
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
 
+default_language_version:
+  python: pypy3
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
+      - id: check-yaml
       - id: check-executables-have-shebangs
       - id: check-shebang-scripts-are-executable
       - id: destroyed-symlinks
@@ -23,15 +27,15 @@ repos:
     rev: v2.2.0
     hooks:
       - id: doctoc
-        args: [--update-only]
+        args: [--update-only, --notitle]
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v3.0.0-alpha.9-for-vscode"
+    rev: "v3.0.3"
     hooks:
       - id: prettier
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "2.7.1"
+    rev: "2.7.2"
     hooks:
       - id: editorconfig-checker
         alias: ec
