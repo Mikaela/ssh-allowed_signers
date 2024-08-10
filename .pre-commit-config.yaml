@@ -4,12 +4,14 @@ ci:
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
 
-default_language_version:
-  python: pypy3
+  node: "lts"
+  # Remember .python-version !
+  python: "3.12"
+  ruby: ".ruby-version"
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.6.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -29,13 +31,15 @@ repos:
       - id: doctoc
         args: [--update-only, --notitle]
 
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: "v3.0.3"
+  - repo: local
     hooks:
       - id: prettier
+        name: prettier
+        entry: corepack pnpx prettier --cache --ignore-unknown --write
+        language: system
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "2.7.2"
+    rev: "2.7.3"
     hooks:
       - id: editorconfig-checker
         alias: ec
