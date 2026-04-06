@@ -9,7 +9,7 @@ ci:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -24,7 +24,7 @@ repos:
         exclude_types: [markdown]
 
   - repo: https://github.com/thlorenz/doctoc
-    rev: v2.2.0
+    rev: v2.4.0
     hooks:
       - id: doctoc
         args: [--update-only, --notitle]
@@ -37,7 +37,7 @@ repos:
         language: system
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
-    rev: "3.2.1"
+    rev: "3.6.1"
     hooks:
       - id: editorconfig-checker
         alias: ec
